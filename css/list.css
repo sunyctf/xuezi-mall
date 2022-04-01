@@ -1,0 +1,54 @@
+.my_gray{
+	background: linear-gradient(to bottom, #f0f0f0 0%, #e0e0e0 100%);
+}
+.my_input1{
+	width: 10%;
+	border:0;
+	outline: 0;
+	text-align: center;
+	font-size: 0.8rem;
+}
+.my_btn1{
+	width:1.5rem;height: 1.5rem;
+	border: 0;outline: 0;
+	color:#fff;
+	font-weight: bold;
+	font-size: 1.5rem;
+	line-height: 1;
+}
+.my_btn1:focus{outline: 0;}
+.my_btn1:hover{background-color: #ccc;}
+.my_list:hover{
+	box-shadow: 0px 0px 5px 2px #999;
+}
+/* 分页 */
+.page-link{
+	background-color: transparent;
+	border-radius: 0.25rem;
+	border-color: #999;
+}
+.page-link:hover{border-color: #0aa1ed;}
+.page-item+.page-item{
+	margin-left: 0.5rem;
+}
+.my_input2{
+	width: 5%;
+	border: 0;outline: 0;
+	text-align: center;
+	font-size: 0.8rem;
+	line-height: 1;
+}
+.my_btn2{
+	width: 1.25rem;height: 1.25rem;
+	border: 0;outline: 0;
+	background-color: #ccc;
+	color: #fff;font-weight: bolder;
+	font-size: 0.8rem;
+	line-height: 1.25rem;
+}
+.border-top{
+	border-top: 1px dashed #666 !important;
+}
+.my_btn2:hover{background-color: #aaa;}
+.my_btn2:focus{outline: 0;}
+.bg-gray{background-color: #999;}

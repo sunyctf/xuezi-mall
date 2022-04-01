@@ -1,0 +1,4 @@
+/* 修改bootstrap封装的输入文本框的:focus样式 */
+.my_input1:focus{box-shadow: 0px 0px 0px 0px #000;}
+/* 修改bootstrap面包屑导航源码---伪元素before的content属性的内容"/"改为"|"*/
+.breadcrumb-item+.breadcrumb-item::before{content: "|";}

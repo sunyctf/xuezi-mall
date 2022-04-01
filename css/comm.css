@@ -1,0 +1,19 @@
+*{margin:0;padding:0;}
+body{background-color: #f5f5f5;}
+/* 调整input的placeholder属性的字号大小，以便与img对齐 */
+.font_small{font-size: 0.8rem;}
+/* 把header.html、footer.html引入主页时设置宽100%-----由于每个页面都需要header、footer，所以放进comm.css里 */
+.my_header,.my_footer{
+	width: 100%;
+	border: 0;
+}
+/* 设置header.html、footer.html的响应式 */
+@media (min-width:576px) {
+	.my_header{height: 12rem;}
+	.my_footer{height: 31rem;}
+}
+@media (min-width:992px) {
+	.my_header{height: 6.5rem;}
+	.my_footer{height: 20rem;}
+
+}

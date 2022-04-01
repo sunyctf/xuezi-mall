@@ -1,0 +1,54 @@
+.carousel-indicators>li{
+	width: 0.8rem;height: 0.8rem;
+	background-color: #fff;
+	border-radius: 50%;
+	margin: 0px 0.5rem;
+}
+.carousel-indicators>li.active{background-color: #0aa1ed;}
+.carousel-control-next,.carousel-control-prev{
+	width: 4%;height: 20%;
+	top:40%;
+	border-radius: .25rem;
+	background-color: #aaa;
+}
+.carousel-control-next{right:5px}
+.carousel-control-prev{left:5px}
+/* 1L的样式 */
+.border-bottom{border-bottom:2px solid #d9d9d9 !important;}
+.top_height{height: 377px;background-color: #e8e8e8;}
+.bottom_height{height: 233px;background-color: #e8e8e8;}
+
+.my_img1{float:right;transition:transform 1s;}
+
+/* 新增  */
+.my_img2{ float: right; margin-top: -200px; margin-right: 30px; transition: transform 1s;}
+
+.my_img3{float: right;transition:transform 1s;}
+.w-55{width: 55%;}
+
+/* 新增 */
+.my_img4,.my_img5,.my_img6{transition: transform 1s;}
+.w-85{width: 85%;}
+
+/* 新增  */
+.my_img1:hover,.my_img2:hover,.my_img3:hover,.my_img4:hover,.my_img5:hover,.my_img6:hover{
+	transform: scale(1.1);
+}
+
+@media (min-width:576px) {
+	.my_img1{	margin-top: -258px;		margin-right:23px;	}
+	.my_img3{margin-top:-121px;	margin-right:32px;}
+}
+@media (min-width:768px) {
+	.my_img1{	margin-top: -225px;	margin-right:50px;}
+	.my_img3{margin-top:-121px;	margin-right:114px;}
+}
+@media (min-width:992px) {
+	.my_img1{	margin-top: -249px;		margin-right:23px;	}
+	.my_img2{ margin-top: -180px;}
+	.my_img3{margin-top:-137px;	margin-right:4px;}
+}
+@media (min-width:1200px) {
+	.my_img1{	margin-top: -225px;		margin-right:50px;	}
+}
+

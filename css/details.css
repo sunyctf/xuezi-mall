@@ -1,0 +1,155 @@
+/* 左侧 */
+breadcrumb-item+.breadcrumb-item::before {
+	content: ">";
+}
+
+.my_overflow {
+	overflow: hidden;
+}
+
+.my_bg_img {
+	transition: 1s;
+}
+
+.my_bg_img:hover {
+	transform: scale(1.1);
+}
+
+.my_img {
+	width: 5.5rem;
+}
+
+.my_img:hover {
+	/* 这里hover的位移效果，尽量不要用magin来改变元素的位置，因为它会对前后左右的其他元素造成影响，稍不留神就会让局面变得不可收拾。也就是说transition改变margin是会影响布局的，如果想不影响布局可以用transform的位移函数translate来激活GPU加速。参考：在移动端使用transform: translate代替top left marg等做位移有好处么 ？https://www.zhihu.com/question/33629083
+	margin-top: 2px;margin-bottom: 1px; 
+	*/
+	transform: translate(2px, 2px);
+	border: 1px solid #999;
+}
+
+
+/* 右侧 */
+
+.my_bg {
+	background: linear-gradient(to bottom, #eee, #ccc);
+}
+
+.my_font {
+	font-size: 12px;
+}
+
+.my_font1 {
+	font-size: 8px;
+}
+
+.img_place {
+	vertical-align: middle;
+	position: relative;
+	top: -8px;
+	left: 2px;
+}
+
+.my_b {
+	font-weight: 500;
+	display: inline-block;
+	margin-left: 4px;
+	margin-top: 15px;
+	font-size: 15px;
+	font-family: 黑体;
+}
+
+.my_div {
+	position: relative;
+	right: 42px;
+}
+
+.my_dhover {
+	font-size: 12px;
+	text-align: center;
+	text-decoration: none;
+	border: 1px solid #666666;
+	color: #666666
+}
+
+.my_dhover:hover {
+	border-color: #0AA1ED !important;
+	text-decoration: none;
+	color: #0AA1ED !important;
+}
+
+.my_dhover:focus {
+	border-color: #0AA1ED !important;
+	color: #0AA1ED !important;
+}
+
+
+#my_plus {
+	position: relative;
+	bottom: 44px;
+	left: 50px;
+}
+
+.my_input1 {
+	width: 6%;
+	border: 0;
+	outline: 0;
+	text-align: center;
+	font-size: 1.1rem;
+}
+
+.my_btn1 {
+	width: 2rem;
+	height: 2rem;
+	border: 0.5px solid #ccc;
+	outline: 0;
+	color: #000;
+	font-weight: bold;
+	font-size: 1rem;
+	line-height: 1;
+}
+
+.my_btn1:focus {
+	outline: 0;
+}
+
+.my_btn1:hover {
+	background-color: #ccc;
+}
+
+#a1 {
+	display: inline-block;
+	width: 160px;
+	height: 50px;
+	color: #0AA1ED;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	text-decoration: none;
+	background: linear-gradient(to bottom, white 0%, #e8e8e8 100%);
+}
+
+#a2 {
+	display: inline-block;
+	width: 160px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	font-size: 20px;
+	background-color: #0AA1ED;
+	text-decoration: none;
+}
+
+#a3 {
+	display: inline-block;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+	background-color: #0AA1ED;
+}
